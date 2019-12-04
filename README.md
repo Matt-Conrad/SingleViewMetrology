@@ -17,6 +17,13 @@ A description of the files:
 * TestPerspective.m: Run code to test the Perspective.m function and also is a script to calculate the corners using the Hough Tranform with manually tuned hyperparameters.
 * SampleOutput: Contains output.wrl which can be opened by a 3rd party viewer like the [view3Dscene](https://castle-engine.io/view3dscene.php) program. You must have uv.bmp, uw.bmp, and vw.bmp in the same folder. If you don't want to use a 3rd party viewer, I also added WRL_in_view3dscene.png to show you what it would look like.
 
+Input:
+
+![Input](./box1.jpg)
+
+Output:
+
+![Output](./SampleOutput/WRL_in_view3dscene.png)
 
 ## Improvements
 * Make it so the corner locator is more robust and will take other box images
